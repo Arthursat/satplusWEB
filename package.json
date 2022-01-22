@@ -1,0 +1,40 @@
+{
+  "name": "satplus-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.20.0",
+    "date-fns": "^2.27.0",
+    "date-fns-tz": "^1.2.2",
+    "eslint": "^6.8.0",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.4.0",
+    "vue-router": "^3.5.3",
+    "vuelayers": "^0.11.37",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "@vue/cli-plugin-router": "^4.5.12",
+    "@vue/cli-plugin-vuex": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.3.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  }
+}
